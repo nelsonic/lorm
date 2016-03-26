@@ -1,0 +1,26 @@
+{
+  "name": "lorm",
+  "version": "1.0.0",
+  "description": "experiment 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonic/lorm.git"
+  },
+  "keywords": [
+    "lightweight",
+    "ORM",
+    "object",
+    "relational",
+    "mapper"
+  ],
+  "author": "thisguy",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/nelsonic/lorm/issues"
+  },
+  "homepage": "https://github.com/nelsonic/lorm#readme"
+}
