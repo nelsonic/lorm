@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/nelsonic/lorm/issues"
   },
-  "homepage": "https://github.com/nelsonic/lorm#readme"
+  "homepage": "https://github.com/nelsonic/lorm#readme",
+  "dependencies": {
+    "joi": "^8.0.5",
+    "pg": "^4.5.1"
+  }
 }
