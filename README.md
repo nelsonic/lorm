@@ -151,11 +151,19 @@ Each sub-object has the folowing
 
 ## Research & Background Reading
 
+
 ### Existing Node Modules
 
-+
++ pg - https://github.com/brianc/node-postgres (the most popular node Postgres module)
 + node-sql - https://github.com/brianc/node-sql sql string builder for node
++ sequelize - https://github.com/sequelize/sequelize
++ js-data - https://github.com/js-data/js-data
++ knex - https://github.com/tgriesser/knex
 
 ### Data Types
 
 + Postgres data types: https://en.wikipedia.org/wiki/PostgreSQL#Data_types
+
+## Motivation
+
++ Read the comments in this post: http://www.sitepoint.com/3-javascript-orms-you-might-not-know/
