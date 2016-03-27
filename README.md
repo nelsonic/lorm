@@ -1,11 +1,15 @@
 # Lightweight Object Relational Mapper
 
-A simple JOI model of the form:
+The basic idea is to have a *single* [Joi](https://github.com/hapijs/joi)
+*model* which can be used to create input forms, validate http requests
+*and* database queries.
+
+A simple JOI model for a "Person" could take the form:
 ```js
 var Joi = require('joi');
 var person = {
   email    : Joi.string().email().required().max(254), // Required
-  password : Joi.string().required().min(6).max(100),  // minimum length 6 characters]
+  password : Joi.string().required().min(6).max(100),  // minimum length 6 chars
   name     : Joi.string().optional().max(100),
   id       : Joi.any().forbidden()
 };
@@ -138,9 +142,20 @@ Has the following Object structure:
   }
 }
 ```
-
+Each sub-object has the folowing
 ```js
 "_flags": {
   "presence": "forbidden"
 }
 ```
+
+## Research & Background Reading
+
+### Existing Node Modules
+
++
++ node-sql - https://github.com/brianc/node-sql sql string builder for node
+
+### Data Types
+
++ Postgres data types: https://en.wikipedia.org/wiki/PostgreSQL#Data_types
